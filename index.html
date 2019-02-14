@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/calculator.png">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2><em>Calculate all the numbers!</em></h2>
+      </div>
+      <div class="calculator">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="numone">Enter a number</label>
+                <input type="text" class="form-control" id="numone">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="numtwo">Enter another number</label>
+                <input type="text" class="form-control" id="numtwo">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <button type="button" class="btn btn-success" id="add-button">+</button>
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-info" id="sub-button">-</button>
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-warning" id="mult-button">x</button>
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-danger" id="divi-button">÷</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="add-value">
+        <h5>Your numbers add up to equal:<br><span id="add-total"></span></h5>
+      </div>
+      <div id="sub-value">
+        <h5>Your numbers subtracted equal:<br><span id="sub-total"></span></h5>
+      </div>
+      <div id="mult-value">
+        <h5>Your numbers multiply to equal:<br><span id="mult-total"></span></h5>
+      </div>
+      <div id="divi-value">
+        <h5>Your numbers divided equal:<br><span id="divi-total"></span></h5>
+      </div>
+    </div>
+  </body>
+</html>

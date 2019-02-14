@@ -1,0 +1,28 @@
+.jumbotron {
+  background-color: #008080;
+}
+
+body {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+button {
+  font-size: 50px !important;
+}
+
+.form-group {
+  font-size: 25px;
+}
+
+#value h5 {
+  font-size: 25px;
+}
+
+#add-total, #sub-total, #mult-total, #divi-total {
+  font-weight: bold;
+  font-size: 44px;
+}
