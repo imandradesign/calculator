@@ -2,6 +2,10 @@
   background-color: #008080;
 }
 
+.jumbotron h2 {
+  font-size: 60px;
+}
+
 body {
   text-align: center;
 }
@@ -12,17 +16,52 @@ body {
 
 button {
   font-size: 50px !important;
+  min-width: 100px;
 }
 
 .form-group {
   font-size: 25px;
 }
 
-#value h5 {
+#add-value h5, #sub-value h5, #mult-value h5, #divi-value h5 {
   font-size: 25px;
 }
 
 #add-total, #sub-total, #mult-total, #divi-total {
   font-weight: bold;
   font-size: 44px;
+}
+
+@media only screen and (max-width:700px) {
+  h2 {
+    font-size: 90px;
+  }
+
+  label {
+    font-size: 60px;
+  }
+
+  .col-md-6 {
+    min-width: 100%;
+  }
+
+  .form-control {
+    min-height: 100px;
+    margin-bottom: 80px;
+  }
+
+  button {
+    font-size: 70px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  #add-value h5, #sub-value h5, #mult-value h5, #divi-value h5 {
+    font-size: 60px !important;
+  }
+
+  #add-total, #sub-total, #mult-total, #divi-total {
+    font-weight: bold;
+    font-size: 120px;
+  }
 }
