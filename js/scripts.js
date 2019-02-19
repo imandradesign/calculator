@@ -47,6 +47,10 @@ $(document).ready(function(){
       $("#divi-total").text(diviNums(numOneInput, numTwoInput));
     } else {
       alert("Please enter a valid number");
+      $("#add-value").hide();
+      $("#sub-value").hide();
+      $("#mult-value").hide();
+      $("#divi-value").hide();
     }
   });
 });
